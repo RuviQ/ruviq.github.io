@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Slab:wght@100&family=Slabo+27px&display=swap');
+
+html {
+    background-color: red;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: "Background wallpaper.jpg";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+
+.header-container {
+    padding: 10px 5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+nav h1 {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    padding-inline: 20px;
+    background-color: transparent;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: rgb(5, 5, 5);
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+#intro {
+    background-image: url("image.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.intro-container {
+    background-color: rgba(0, 0, 0, 0.671);
+    margin-right: 10%;
+    padding-inline: 30px;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+#about {
+    background-color: #041620;
+}
+
+.row {
+    display: flex;
+}
+
+.intro-col-1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.intro-col-1 img {
+    width: 400px;
+}
+
+.intro-col-2 {
+    background-color: #0000002a;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.intro-col-2 h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro-col-2 p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro-col-2 ul {
+    text-align: justify;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.intro-col-2 ul li {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #115156;
+    box-shadow: 5px 5px #032c2e;
+}
+
+.intro-col-2 ul a {
+    text-indent: 30px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
