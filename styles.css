@@ -61,7 +61,7 @@ body {
 
 #intro {
     scroll-snap-align: start;
-    background-image: url("home.png");
+    background-image: url("Home.png");
     height: 93vh;
     background-size: cover;
     background-position-x: center;
