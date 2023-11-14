@@ -61,7 +61,7 @@ body {
 
 #intro {
     scroll-snap-align: start;
-    background-image: url("website_assets/home.png");
+    background-image: url("home.png");
     height: 93vh;
     background-size: cover;
     background-position-x: center;
@@ -84,7 +84,7 @@ body {
 
 #about {
     scroll-snap-align: start;
-    background-image: url("website_assets/About.jpg");
+    background-image: url("About.jpg");
     background-size: cover;
 
 }
@@ -133,7 +133,7 @@ body {
     scroll-snap-align: start;
     display: flex;
     flex-direction: column;
-    background-image: url("website_assets/pixel.gif");
+    background-image: url("pixel.gif");
     background-size: cover;
     height: 93vh;
     justify-content: center;
