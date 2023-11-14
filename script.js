@@ -1,1 +1,0 @@
-$('#igit').click(function(){window.open('https://shor.by/ruvi')})
